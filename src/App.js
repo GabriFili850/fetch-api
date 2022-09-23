@@ -31,13 +31,6 @@ const App = () => {
     <div className="App">
       <h1>This App will fetch random data from an API</h1>
 
-      <button
-        onClick={() => {
-          fetchRandomData();
-        }}
-      >
-        Fetch Random Data
-      </button>
       <p>{randomUserDataJSON}</p>
     </div>
   );
